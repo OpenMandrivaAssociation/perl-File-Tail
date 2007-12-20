@@ -8,6 +8,7 @@ License:	GPL or Artistic
 Group:		Development/Perl
 Source0:	http://search.cpan.org/CPAN/authors/id/M/MG/MGRABNAR/%{module}-%{version}.tar.bz2
 Url:		http://search.cpan.org/dist/%module/
+BuildRoot:	%{_tmppath}/%{name}-%{version}-root/
 Requires:	perl
 BuildRequires:	perl-devel perl-Time-HiRes
 BuildArch:	noarch
