@@ -3,7 +3,7 @@
 Summary:	File::Tail module for Perl
 Name:		perl-%{modname}
 Version:	0.99.3
-Release:	16
+Release:	17
 License:	GPLv2 or Artistic
 Group:		Development/Perl
 Source0:	http://search.cpan.org/CPAN/authors/id/M/MG/MGRABNAR/%{modname}-%{version}.tar.bz2
