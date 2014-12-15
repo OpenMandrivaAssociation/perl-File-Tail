@@ -16,7 +16,7 @@ BuildArch:	noarch
 This Perl modules allows to read from continously updated files.
 
 %prep
-%setup -qn File-Tail-%{version}
+%setup -qn File-Tail-1.0
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
