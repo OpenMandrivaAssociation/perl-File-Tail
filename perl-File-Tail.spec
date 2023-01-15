@@ -2,11 +2,11 @@
 
 Summary:	File::Tail module for Perl
 Name:		perl-%{modname}
-Version:	%perl_convert_version 1.0
+Version:	1.3
 Release:	1
 License:	GPLv2 or Artistic
 Group:		Development/Perl
-Source0:	http://search.cpan.org/CPAN/authors/id/M/MG/MGRABNAR/%{modname}-1.0.tar.gz
+Source0:	http://search.cpan.org/CPAN/authors/id/M/MG/MGRABNAR/%{modname}-%{version}.tar.gz
 Url:		http://search.cpan.org/dist/%{modname}/
 Requires:	perl
 BuildRequires:	perl-devel perl-Time-HiRes
@@ -16,17 +16,17 @@ BuildArch:	noarch
 This Perl modules allows to read from continously updated files.
 
 %prep
-%setup -qn File-Tail-1.0
+%autosetup -p1 -n File-Tail-%{version}
+perl Makefile.PL INSTALLDIRS=vendor
 
 %build
-perl Makefile.PL INSTALLDIRS=vendor
-%make
+%make_build
 
 %check
 %make test
 
 %install
-%makeinstall_std
+%make_install
 
 %files
 %doc README Changes
