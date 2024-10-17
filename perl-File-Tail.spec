@@ -7,7 +7,7 @@ Release:	2
 License:	GPLv2 or Artistic
 Group:		Development/Perl
 Source0:	http://search.cpan.org/CPAN/authors/id/M/MG/MGRABNAR/%{modname}-%{version}.tar.gz
-Url:		http://search.cpan.org/dist/%{modname}/
+Url:		https://search.cpan.org/dist/%{modname}/
 Requires:	perl
 BuildRequires:	perl-devel perl-Time-HiRes
 BuildArch:	noarch
