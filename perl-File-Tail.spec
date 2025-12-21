@@ -9,6 +9,7 @@ Group:		Development/Perl
 Source0:	http://search.cpan.org/CPAN/authors/id/M/MG/MGRABNAR/%{modname}-%{version}.tar.gz
 Url:		https://search.cpan.org/dist/%{modname}/
 Requires:	perl
+BuildRequires:	make
 BuildRequires:	perl-devel perl-Time-HiRes
 BuildArch:	noarch
 
